@@ -10,7 +10,8 @@ Given(/^I search For Paper$/) do
         find('#twotabsearchtextbox').set('Paper')
         #click on the amazon search button
         #click_on 'nav-input'
-        find_button('Go').click
+  
+      find_button('Go').click
 end
  
 Then(/^I should be able to access the Paper Search Results page$/) do
@@ -20,5 +21,8 @@ Then(/^I should be able to access the Paper Search Results page$/) do
         #find('a').text == 'Georgia-Pacific'
          #page.should have_content('Georgia-Pacific')
           page.find_link('Georgia-Pacific').text
+
+#step definition file for learning purposes of capybara cucumber ruby automation framework
+
 
 end
