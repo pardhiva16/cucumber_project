@@ -24,5 +24,7 @@ Then(/^I should be able to access the Paper Search Results page$/) do
 
 #step definition file for learning purposes of capybara cucumber ruby automation framework
 
+# comment added for SDS-1234 to create a pull request and then commit to master for 
+# testing
 
 end
