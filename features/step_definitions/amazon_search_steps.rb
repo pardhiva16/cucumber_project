@@ -16,7 +16,7 @@ end
  
 Then(/^I should be able to access the Paper Search Results page$/) do
         #use xpath to find the link we require and click it
-        find(:xpath, "//*[@id="result_3"]/div/div[2]/div/div[2]/div[1]/div[1]/a/h2").click
+        find(:xpath, ".//*[@id="result_3"]/div/div[2]/div/div[2]/div[1]/div[1]/a/h2").click
         #test the h1 title is equal to GP
         #find('a').text == 'Georgia-Pacific'
          #page.should have_content('Georgia-Pacific')
